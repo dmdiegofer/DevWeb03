@@ -47,5 +47,16 @@ p {
     text-transform: uppercase;
 }
 
-
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .with-sidebar {
+        display: flex;
+        gap: 4rem;
+    }
+    aside {
+        flex: 1;
+    }
+    article {
+        flex: 3;
+    }
+}
