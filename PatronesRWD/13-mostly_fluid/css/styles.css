@@ -37,3 +37,21 @@ p {
 }
 
 /** CODIGO AQUI **/
+.contenedor {
+    max-width: 120rem; /* TO EVOID BIG SCREEN SIZE STYLE PROBLEMS */ 
+    width: 90%; /* USE % OVER rem and px TO MAKE IT FLUID WITH THE SCREEN SIZES */
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .contenedor {
+        width: 80%; /* USE % OVER rem and px TO MAKE IT FLUID WITH THE SCREEN SIZES */
+    }
+}
+@media (min-width: 992px) {
+    .contenedor {
+        width: 60%; /* USE % OVER rem and px TO MAKE IT FLUID WITH THE SCREEN SIZES */
+    }
+}
+img {
+    max-width: 100% /* ON IMAGES, THE max-width helps to make the size of the image fluid with the screen size */
+}
